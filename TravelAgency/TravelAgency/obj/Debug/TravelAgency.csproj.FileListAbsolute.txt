@@ -1,0 +1,14 @@
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelDB.mdf
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelDB_log.ldf
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe.config
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelAgency.pdb
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.AssemblyReference.cache
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Form1.resources
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.FormResult.resources
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Properties.Resources.resources
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.GenerateResource.cache
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.CoreCompileInputs.cache
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.exe
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.pdb
+C:\Users\Екатерина\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.exe.config
