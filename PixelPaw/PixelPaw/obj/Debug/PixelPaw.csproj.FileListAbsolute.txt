@@ -1,0 +1,11 @@
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\bin\Debug\PixelPaw.exe.config
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\bin\Debug\PixelPaw.exe
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\bin\Debug\PixelPaw.pdb
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.csproj.AssemblyReference.cache
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.Form1.resources
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.Properties.Resources.resources
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.csproj.GenerateResource.cache
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.csproj.CoreCompileInputs.cache
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.exe
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.pdb
+C:\Users\Екатерина\source\repos\PixelPaw\PixelPaw\obj\Debug\PixelPaw.exe.config
