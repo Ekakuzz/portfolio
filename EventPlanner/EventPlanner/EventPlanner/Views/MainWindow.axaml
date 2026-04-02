@@ -1,0 +1,112 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:EventPlanner"
+        x:Class="EventPlanner.MainWindow"
+        Title="Планировщик мероприятий"
+        Width="900" Height="600"
+        Background="#F5F5F5">
+    
+    <DockPanel>
+        <Border DockPanel.Dock="Top" Background="#4CAF50" Padding="15">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
+                <TextBlock Text="📅" FontSize="24"/>
+                <TextBlock Text="ПЛАНИРОВЩИК МЕРОПРИЯТИЙ" Foreground="White" FontSize="20" FontWeight="Bold"/>
+            </StackPanel>
+        </Border>
+
+        <Border DockPanel.Dock="Left" Background="White" Width="200" Margin="5" CornerRadius="5">
+            <StackPanel Margin="10">
+                <TextBlock Text="КАТЕГОРИИ" FontWeight="Bold" Foreground="#4CAF50" Margin="0,5"/>
+                <ListBox Name="CategoryList" Background="Transparent" BorderThickness="0">
+                    <ListBoxItem>🎉 Все мероприятия</ListBoxItem>
+                    <ListBoxItem>💼 Работа</ListBoxItem>
+                    <ListBoxItem>🏠 Дом</ListBoxItem>
+                    <ListBoxItem>🎓 Учеба</ListBoxItem>
+                    <ListBoxItem>❤️ Личное</ListBoxItem>
+                </ListBox>
+            </StackPanel>
+        </Border>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="White" Margin="5" CornerRadius="5" Padding="15">
+                <StackPanel>
+                    <TextBlock Text="НОВОЕ МЕРОПРИЯТИЕ" FontSize="16" FontWeight="Bold" Foreground="#4CAF50" Margin="0,0,0,15"/>
+                    
+                    <TextBlock Text="Название:" Margin="0,5"/>
+                    <TextBox x:Name="NameInput" Watermark="Введите название" Padding="8" CornerRadius="3"/>
+                    
+                    <TextBlock Text="Дата:" Margin="0,10,0,5"/>
+                    <DatePicker x:Name="DateInput" CornerRadius="3"/>
+                    
+                    <TextBlock Text="Время:" Margin="0,10,0,5"/>
+                    <TextBox x:Name="TimeInput" Text="18:00" Watermark="ЧЧ:ММ" Padding="8" CornerRadius="3"/>
+                    
+                    <Expander Header="ДОПОЛНИТЕЛЬНО" Margin="0,15" Background="#F0F0F0">
+                        <StackPanel Margin="10">
+                            <TextBlock Text="Место:" Margin="0,5"/>
+                            <TextBox x:Name="PlaceInput" Text="Дом" Padding="8" CornerRadius="3"/>
+                        </StackPanel>
+                    </Expander>
+                    
+                    <Button x:Name="AddBtn" Content="➕ ДОБАВИТЬ" Background="#4CAF50" Foreground="White" Margin="0,10" Height="40" CornerRadius="3"/>
+                </StackPanel>
+            </Border>
+
+            <GridSplitter Grid.Column="1" Background="#CCCCCC"/>
+
+            <Border Grid.Column="2" Background="White" Margin="5" CornerRadius="5" Padding="10">
+                <StackPanel>
+                    <TextBlock Text="СПИСОК МЕРОПРИЯТИЙ" FontSize="14" FontWeight="Bold" Foreground="#4CAF50" Margin="0,5"/>
+                    
+                    <ScrollViewer Height="480">
+                        <ItemsControl x:Name="EventsControl">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Spacing="5"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="local:EventItem">
+                                    <Border Background="#F9F9F9" CornerRadius="5" Padding="8" BorderBrush="#E0E0E0" BorderThickness="1">
+                                        
+                                        <Border.ContextFlyout>
+                                            <Flyout>
+                                                <StackPanel Width="150" Spacing="5">
+                                                    <Button Content="✏️ Редактировать" 
+                                                            Background="#2196F3" 
+                                                            Foreground="White" 
+                                                            Height="30"
+                                                            Tag="{Binding Name}"
+                                                            Click="EditButton_Click"/>
+                                                    <Button Content="🗑️ Удалить" 
+                                                            Background="#F44336" 
+                                                            Foreground="White" 
+                                                            Height="30"
+                                                            Tag="{Binding Name}"
+                                                            Click="DeleteButton_Click"/>
+                                                </StackPanel>
+                                            </Flyout>
+                                        </Border.ContextFlyout>
+                                        
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="14"/>
+                                            <TextBlock Text="{Binding Date}" Foreground="#666666" FontSize="11"/>
+                                            <TextBlock Text="{Binding Time}" Foreground="#4CAF50" FontSize="12" FontWeight="Bold"/>
+                                            <TextBlock Text="{Binding Place}" Foreground="#888888" FontSize="11"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>
