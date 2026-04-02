@@ -1,0 +1,11 @@
+C:\Users\Екатерина\source\repos\PurrText\PurrText\bin\Debug\PurrText.exe.config
+C:\Users\Екатерина\source\repos\PurrText\PurrText\bin\Debug\PurrText.exe
+C:\Users\Екатерина\source\repos\PurrText\PurrText\bin\Debug\PurrText.pdb
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.csproj.AssemblyReference.cache
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.Form1.resources
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.Properties.Resources.resources
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.csproj.GenerateResource.cache
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.csproj.CoreCompileInputs.cache
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.exe
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.pdb
+C:\Users\Екатерина\source\repos\PurrText\PurrText\obj\Debug\PurrText.exe.config

@@ -1,0 +1,268 @@
+﻿namespace PurrText
+{
+    partial class Form1
+    {
+        private System.ComponentModel.IContainer components = null;
+        
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem закрытьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem текстToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem шрифтToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem цветToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem жирныйToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem курсивToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem подчеркнутьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem;
+        
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem шрифтToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem цветToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem жирныйToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem курсивToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem подчеркнутьToolStripMenuItem1;
+        
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.закрытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.текстToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.шрифтToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.цветToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.жирныйToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.курсивToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.подчеркнутьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.шрифтToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.цветToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.жирныйToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.курсивToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.подчеркнутьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            
+            this.menuStrip1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
+            this.SuspendLayout();
+
+            // menuStrip1
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(228)))), ((int)(((byte)(225)))));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+                this.файлToolStripMenuItem,
+                this.текстToolStripMenuItem,
+                this.оПрограммеToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(69)))), ((int)(((byte)(19)))));
+
+            // файлToolStripMenuItem
+            this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+                this.создатьToolStripMenuItem,
+                this.открытьToolStripMenuItem,
+                this.сохранитьToolStripMenuItem,
+                this.закрытьToolStripMenuItem});
+            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
+            resources.ApplyResources(this.файлToolStripMenuItem, "файлToolStripMenuItem");
+            this.файлToolStripMenuItem.Text = "Файл";
+
+            // создатьToolStripMenuItem
+            this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
+            resources.ApplyResources(this.создатьToolStripMenuItem, "создатьToolStripMenuItem");
+            this.создатьToolStripMenuItem.Text = "Создать";
+
+            // открытьToolStripMenuItem
+            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
+            resources.ApplyResources(this.открытьToolStripMenuItem, "открытьToolStripMenuItem");
+            this.открытьToolStripMenuItem.Text = "Открыть";
+
+            // сохранитьToolStripMenuItem
+            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
+            resources.ApplyResources(this.сохранитьToolStripMenuItem, "сохранитьToolStripMenuItem");
+            this.сохранитьToolStripMenuItem.Text = "Сохранить";
+
+            // закрытьToolStripMenuItem
+            this.закрытьToolStripMenuItem.Name = "закрытьToolStripMenuItem";
+            resources.ApplyResources(this.закрытьToolStripMenuItem, "закрытьToolStripMenuItem");
+            this.закрытьToolStripMenuItem.Text = "Закрыть";
+
+            // текстToolStripMenuItem
+            this.текстToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+                this.шрифтToolStripMenuItem,
+                this.цветToolStripMenuItem,
+                this.жирныйToolStripMenuItem,
+                this.курсивToolStripMenuItem,
+                this.подчеркнутьToolStripMenuItem});
+            this.текстToolStripMenuItem.Name = "текстToolStripMenuItem";
+            resources.ApplyResources(this.текстToolStripMenuItem, "текстToolStripMenuItem");
+            this.текстToolStripMenuItem.Text = "Текст";
+
+            // шрифтToolStripMenuItem
+            this.шрифтToolStripMenuItem.Name = "шрифтToolStripMenuItem";
+            resources.ApplyResources(this.шрифтToolStripMenuItem, "шрифтToolStripMenuItem");
+            this.шрифтToolStripMenuItem.Text = "Шрифт";
+
+            // цветToolStripMenuItem
+            this.цветToolStripMenuItem.Name = "цветToolStripMenuItem";
+            resources.ApplyResources(this.цветToolStripMenuItem, "цветToolStripMenuItem");
+            this.цветToolStripMenuItem.Text = "Цвет";
+
+            // жирныйToolStripMenuItem
+            this.жирныйToolStripMenuItem.Name = "жирныйToolStripMenuItem";
+            resources.ApplyResources(this.жирныйToolStripMenuItem, "жирныйToolStripMenuItem");
+            this.жирныйToolStripMenuItem.Text = "Жирный";
+
+            // курсивToolStripMenuItem
+            this.курсивToolStripMenuItem.Name = "курсивToolStripMenuItem";
+            resources.ApplyResources(this.курсивToolStripMenuItem, "курсивToolStripMenuItem");
+            this.курсивToolStripMenuItem.Text = "Курсив";
+
+            // подчеркнутьToolStripMenuItem
+            this.подчеркнутьToolStripMenuItem.Name = "подчеркнутьToolStripMenuItem";
+            resources.ApplyResources(this.подчеркнутьToolStripMenuItem, "подчеркнутьToolStripMenuItem");
+            this.подчеркнутьToolStripMenuItem.Text = "Подчеркнуть";
+
+            // оПрограммеToolStripMenuItem
+            this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
+            resources.ApplyResources(this.оПрограммеToolStripMenuItem, "оПрограммеToolStripMenuItem");
+            this.оПрограммеToolStripMenuItem.Text = "О программе";
+
+            // contextMenuStrip1
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+                this.шрифтToolStripMenuItem1,
+                this.цветToolStripMenuItem1,
+                this.жирныйToolStripMenuItem1,
+                this.курсивToolStripMenuItem1,
+                this.подчеркнутьToolStripMenuItem1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
+            this.contextMenuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(228)))), ((int)(((byte)(225)))));
+            this.contextMenuStrip1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(69)))), ((int)(((byte)(19)))));
+
+            // шрифтToolStripMenuItem1
+            this.шрифтToolStripMenuItem1.Name = "шрифтToolStripMenuItem1";
+            resources.ApplyResources(this.шрифтToolStripMenuItem1, "шрифтToolStripMenuItem1");
+            this.шрифтToolStripMenuItem1.Text = "Шрифт";
+
+            // цветToolStripMenuItem1
+            this.цветToolStripMenuItem1.Name = "цветToolStripMenuItem1";
+            resources.ApplyResources(this.цветToolStripMenuItem1, "цветToolStripMenuItem1");
+            this.цветToolStripMenuItem1.Text = "Цвет";
+
+            // жирныйToolStripMenuItem1
+            this.жирныйToolStripMenuItem1.Name = "жирныйToolStripMenuItem1";
+            resources.ApplyResources(this.жирныйToolStripMenuItem1, "жирныйToolStripMenuItem1");
+            this.жирныйToolStripMenuItem1.Text = "Жирный";
+
+            // курсивToolStripMenuItem1
+            this.курсивToolStripMenuItem1.Name = "курсивToolStripMenuItem1";
+            resources.ApplyResources(this.курсивToolStripMenuItem1, "курсивToolStripMenuItem1");
+            this.курсивToolStripMenuItem1.Text = "Курсив";
+
+            // подчеркнутьToolStripMenuItem1
+            this.подчеркнутьToolStripMenuItem1.Name = "подчеркнутьToolStripMenuItem1";
+            resources.ApplyResources(this.подчеркнутьToolStripMenuItem1, "подчеркнутьToolStripMenuItem1");
+            this.подчеркнутьToolStripMenuItem1.Text = "Подчеркнуть";
+
+            // statusStrip1
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+                this.toolStripStatusLabel1,
+                this.toolStripStatusLabel2,
+                this.toolStripStatusLabel3});
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(228)))), ((int)(((byte)(225)))));
+            this.statusStrip1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(69)))), ((int)(((byte)(19)))));
+
+            // toolStripStatusLabel1
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            this.toolStripStatusLabel1.Text = "Слов: 0";
+
+            // toolStripStatusLabel2
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
+            this.toolStripStatusLabel2.Text = "Символов: 0";
+
+            // toolStripStatusLabel3
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            resources.ApplyResources(this.toolStripStatusLabel3, "toolStripStatusLabel3");
+            this.toolStripStatusLabel3.Text = "Выделено: 0";
+
+            // richTextBox1
+            this.richTextBox1.AcceptsTab = true;
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(240)))));
+            this.richTextBox1.ContextMenuStrip = this.contextMenuStrip1;
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
+            this.richTextBox1.Name = "richTextBox1";
+
+            // openFileDialog1
+            this.openFileDialog1.FileName = "openFileDialog1";
+
+            // Form1
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(245)))));
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Form1";
+            this.Text = "PurrText";
+            
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+    }
+}
